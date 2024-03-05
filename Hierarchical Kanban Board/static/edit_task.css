@@ -1,0 +1,87 @@
+body {
+    background: #FFFFFF; /* Changed background to white */
+    font-family: 'Raleway', sans-serif;
+    color: #28282B;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column; /* Ensures vertical stacking */
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  h2 {
+    color: #28282B;
+    font-family: 'Righteous';
+    margin: 15px 0;
+  }
+  
+  .form-container { /* Unified class for edit and delete forms */
+    background: #e0e0e0;
+    border-radius: 10px; /* Made less rounded for a more rectangular look */
+    box-shadow: 10px 10px 30px #bebebe, -10px -10px 30px #ffffff; /* Adjusted for subtlety */
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+    max-width: 400px; /* Adjusted for a more compact layout */
+  }
+  
+  label {
+    display: block;
+    margin: 10px 0;
+  }
+  
+  input[type="text"], select {
+    width: calc(100% - 20px); /* Adjusted for padding */
+    padding: 8px; /* Reduced padding for a slimmer look */
+    margin: 10px 0;
+    border-radius: 5px; /* Reduced for a more rectangular appearance */
+    border: 1px solid #BABECC; /* Added subtle border */
+    box-shadow: none; /* Removed inset shadow for a flatter look */
+    transition: all 0.3s ease-in-out;
+  }
+  
+  input[type="text"]:focus, select:focus {
+    border: 2px solid #4CAF50; /* Highlight focus with a thicker border */
+    box-shadow: none;
+  }
+  
+  input[type="submit"] {
+    width: auto; /* Adjusted to fit content */
+    padding: 8px 15px; /* Reduced padding for smaller buttons */
+    font-size: 1rem; /* Reduced font size for compactness */
+    border-radius: 5px; /* Reduced for a more rectangular look */
+    background: #4CAF50; /* Maintained green background for visibility */
+    color: #FFFFFF;
+    transition: background-color 0.2s ease-in-out;
+    cursor: pointer;
+    margin: 0 5px; /* Added margin for better separation */
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  input[type="submit"]:active {
+    background-color: #397a3b;
+  }
+  
+  select option {
+    background-color: #28282B;
+    color: #fff;
+  }
+  
+  .message {
+    background-color: #babecc;
+    padding: 15px;
+    margin: 20px 0;
+    border-radius: 10px; /* Less rounded for consistency */
+    width: 80%;
+    max-width: 400px;
+    margin: 20px auto;
+  }
+  
